@@ -7,7 +7,7 @@ This is a agent based modelling program for Assignment 1.
 This program has been tested and works in Python version 3.8. Using Anaconda ensure that the graphics backend is Tkinter.
 
 ## Usage
-When all files in a directory. Run the file will open a GUI named Agent Based Modelling. 
+When all files in a directory. Run the file ABM.py and it will open a GUI named Agent Based Modelling. 
 
 ![ABM_GUI](https://user-images.githubusercontent.com/80906276/114885821-f43fad80-9dfe-11eb-9d28-7cce08a81201.JPG)
 
@@ -20,7 +20,7 @@ This will run through the code moving the agents through an environment grazing 
 
 ![image](https://user-images.githubusercontent.com/80906276/114999208-8ac0ad00-9e99-11eb-9ab9-8d694138deaa.png)
 
-You can change the default vales of how many agents, iterations and neighbours within the ABM.py 
+You can change the default values of how many agents, iterations and neighbours within the ABM.py 
 
 
 ![default settings](https://user-images.githubusercontent.com/80906276/115000427-a9737380-9e9a-11eb-8e63-04e755e4dc05.JPG)

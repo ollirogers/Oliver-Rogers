@@ -18,7 +18,8 @@ Click on file and Run model.
 
 This will run through the code moving the agents through an environment grazing through it causing the raster image to change colour as pixels are esentially eaten away.
 
-![Program_Running](https://user-images.githubusercontent.com/80906276/114885731-db36fc80-9dfe-11eb-890b-8fee4995ab50.JPG)
+![image](https://user-images.githubusercontent.com/80906276/114999208-8ac0ad00-9e99-11eb-9ab9-8d694138deaa.png)
+
 
 You can change the default vales of how many agents, iterations and neighbours within the ABM.py 
 

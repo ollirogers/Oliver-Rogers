@@ -20,8 +20,11 @@ This will run through the code moving the agents through an environment grazing 
 
 ![image](https://user-images.githubusercontent.com/80906276/114999208-8ac0ad00-9e99-11eb-9ab9-8d694138deaa.png)
 
-
 You can change the default vales of how many agents, iterations and neighbours within the ABM.py 
+
+
+![default settings](https://user-images.githubusercontent.com/80906276/115000427-a9737380-9e9a-11eb-8e63-04e755e4dc05.JPG)
+
 
 ## Supporting files
 A few files need to be present in the directory when running the "ABM.py". 

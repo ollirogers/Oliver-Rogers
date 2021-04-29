@@ -26,6 +26,24 @@ You can change the default values of how many agents, iterations and neighbours 
 ![default settings](https://user-images.githubusercontent.com/80906276/115000427-a9737380-9e9a-11eb-8e63-04e755e4dc05.JPG)
 
 
+The below code is commented out in the ABM.py but can be utilised if there is a need to write out the envirnoment into a file and also append the amount stored by the agents during the model run.
+
+Write environment to csv
+ 
+f2 = open('environment_out.csv', 'w', newline='')
+writer = csv.writer(f2, delimiter=',', quoting=csv.QUOTE_NONNUMERIC)
+for row in environment:
+    writer.writerow(environment) # List of values.
+f2.close()
+
+Append total sum of agents store
+
+f2 = open('Store_out.txt', 'a', newline='')
+writer = csv.writer(f2, delimiter=' ', quoting=csv.QUOTE_NONNUMERIC)
+for row in agents :
+    writer.writerow([sum]) # List of values.
+f2.close()
+
 ## Supporting files
 A few files need to be present in the directory when running the "ABM.py". 
 They are inside this repository. 

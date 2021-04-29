@@ -48,9 +48,9 @@ f2.close()
 A few files need to be present in the directory when running the "ABM.py". 
 They are inside this repository. 
 
-rasterimage.txt
+rasterimage.txt This is the environment file.
 
-agentframework.py
+agentframework.py Ths contains the agent class.
 
 ## License
 This Program has a MIT License which is enclosed in the repository. 
